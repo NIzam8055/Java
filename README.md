@@ -54,4 +54,5 @@ public class Example {
         System.out.println("Student 1's Age : "+student2.age);
         
     }
+    Datatype_
 }
