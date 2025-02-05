@@ -1,0 +1,35 @@
+class Nonprimitive
+{
+    public static void main(String args[])
+    {
+        // creating and initializing custom character
+        char a = 'N';
+        
+        // Integer data type is generally
+        // used for numeric values
+        int i = 20;
+        
+        // use byte and short
+        // if memory is a constraint
+        byte b = 8;
+        
+        short s = 35;
+        
+        // by default fraction value
+        // is double in java
+        double d = 5.9999933;
+        
+        // for float use 'f' ass suffix as standard
+        float f = 3.987658f;
+        
+        long l = 3500;
+        
+        System.out.println("char: " + a);
+        System.out.println("integer: " + i);
+        System.out.println("byte: " + b);
+        System.out.println("short: " + s);
+        System.out.println("float: " + f);
+        System.out.println("lonf: " + l);
+    }
+    
+}
