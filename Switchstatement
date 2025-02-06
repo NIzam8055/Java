@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class Switchstatement {
+    
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int input = 7;
+        
+        System.out.print("Input number: ");
+        int dayNumber = scanner.nextInt();
+
+        String weekdayName = null;
+        switch (dayNumber) {
+            case 0:
+                weekdayName = "Monday";
+                break;
+            case 1:
+                weekdayName = "Tuesday";
+                break;
+            case 2:
+                weekdayName = "Wednesday";
+                break;
+            case 3:
+                weekdayName = "Thursday";
+                break;
+            case 4:
+                weekdayName = "Friday";
+                break;
+            case 5:
+                weekdayName = "Saturday";
+                break;
+            case 6:
+                weekdayName = "Sunday";
+                break;
+            default:
+        }
+
+        System.out.println("Friday");
+
+    }
+}
