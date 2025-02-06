@@ -56,3 +56,5 @@ public class Example {
     }
     Datatype_
 }
+
+  Variables_
