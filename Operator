@@ -1,0 +1,39 @@
+public class Operator{    
+public static void main(String args[]){    
+int a=10;    
+int b=20; 
+int c=15;
+//Unary Operator
+System.out.println(a++ + ++a);   
+System.out.println(b++ + b++);  
+//Arithmetic Operator
+System.out.println(a+b); 
+System.out.println(a-b);    
+System.out.println(a*b);    
+System.out.println(a/b);    
+System.out.println(a%b);
+
+//Left shift Operator
+System.out.println(10<<2); 
+System.out.println(10<<3);  
+System.out.println(20<<2);  
+System.out.println(15<<4);  
+// Right shift Operator
+ System.out.println(20>>2);  
+    System.out.println(20>>>2);    
+    System.out.println(-20>>2);  
+    System.out.println(-20>>>2);  
+// Logical && and Bitwise & Operator
+System.out.println(a<b&&a<c);
+System.out.println(a<b&a<c);
+  
+//Ternary Operator
+int min=(a<b)?a:b;    
+System.out.println(min);    
+
+//Assignment Operator
+a+=4;  
+b-=4;  
+System.out.println(a);  
+System.out.println(b);  
+}}  
