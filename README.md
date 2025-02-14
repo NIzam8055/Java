@@ -58,3 +58,13 @@ public class Example {
 }
 
   Variables_
+  }
+
+  Foreach statement_
+  }
+  For Loop_
+  }
+  NestedLoop_
+  }
+  Operator_
+  }
