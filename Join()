@@ -1,0 +1,6 @@
+public class Join {
+    public static void main(String[] args){
+        String colours = String.join(" ", "red", "blue", "green");
+System.out.println(colours);
+    }
+}
