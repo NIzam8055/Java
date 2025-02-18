@@ -1,0 +1,19 @@
+    import java.io.*;
+   public class Startwithandendwith {
+    public static void main(String[] args) {
+      
+        String Gadget  = "Smart Watch "; 
+
+        // Suffix to be matched
+        String Gadget1 = "che";
+
+        System.out.println(Gadget.startsWith(Gadget1));
+
+        // Changing the suffix
+        Gadget1 = "Smar";
+
+        System.out.println(Gadget.endsWith(Gadget1));
+    }
+}
+    
+
