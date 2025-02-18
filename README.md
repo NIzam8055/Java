@@ -68,3 +68,5 @@ public class Example {
   }
   Operator_
   }
+  CharAt()_
+  }
