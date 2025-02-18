@@ -1,0 +1,35 @@
+abstract class PaymentMethod {
+    abstract void amount();
+}
+class paymentId extends PaymentMethod{
+    void amount(){System.out.println("T-ID = DF23554DF567");}
+}
+class transaction  extends PaymentMethod{
+    void amount(){System.out.println("10,000");}
+}
+class Balance extends PaymentMethod{
+    void amount(){System.out.println("BALANCE = 25000");}
+}
+class Account extends PaymentMethod{
+    void amount(){System.out.println("successfully sent");}
+}
+public class Abstractclass{
+    public static void main(String args[]){
+        
+        PaymentMethod paymentId = new paymentId();
+        paymentId.amount();
+        
+          PaymentMethod transaction = new transaction();
+        transaction.amount();
+        
+          PaymentMethod Balance = new Balance();
+        Balance.amount();
+        
+        
+          PaymentMethod Account = new Account();
+        Account.amount();
+        
+    }
+}
+      
+   
