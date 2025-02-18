@@ -1,0 +1,12 @@
+public class Charat {
+    public static void main (String[] args){
+        String S = "programing";
+         char ch1 = S.charAt(2);
+        System.out.println(ch1);
+         char ch2 = S.charAt(5);
+        System.out.println(ch2);
+        
+    }
+}
+    
+
