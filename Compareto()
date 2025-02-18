@@ -1,0 +1,7 @@
+public class Compareto {
+    public static void main (String[] args){
+ String Student1 = "Nizam";
+String Student2 = "Nizam";
+System.out.println(Student1.compareTo(Student2));   
+}
+}
