@@ -1,0 +1,18 @@
+public class Javaoperator {
+    private static Object Subject3;
+    public static void main(String[] args){
+         // create 2 strings
+        String Subject1 = "maths";
+                String Subject2 = "maths";
+                
+                
+                // compare subject1 and subject2
+                boolean result1 = Subject1.equals(Subject2);
+                System.out.println("String Subject1 and Subject2 are equal:" + result1);
+                
+         
+  }
+}
+
+    
+
