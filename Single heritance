@@ -1,0 +1,19 @@
+ class Habits{
+    void Sleep(){System.out.println("Sleeping");
+    }
+ }
+    class Ex extends Habits{
+        void Walk(){System.out.println("Walking");}
+    }
+public class Sh {
+    public static void main(String[] args){
+            Ex h = new Ex();
+            h.Sleep();
+            h.Walk();
+        }
+    }
+ 
+    
+    
+    
+
