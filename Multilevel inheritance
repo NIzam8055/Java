@@ -1,0 +1,17 @@
+class habits{
+    void sleep(){System.out.println("sleeping");}
+}
+class Exercise extends habits{
+    void work(){System.out.println("working");}
+}
+class Workout extends Exercise{
+    void walk(){System.out.println("walking");}
+}
+public class Multilevelinheritance{
+    public static void main (String[] args){ 
+        Workout h = new Workout();
+        h.walk();
+        h.work();
+        h.sleep();
+    }
+}
