@@ -1,0 +1,11 @@
+public class Uppercaseandlowercase {
+    public static void main(String[] args) {
+                 
+        String upperCaseString = "CHENGALPATTU";
+
+        String lowerCaseString = upperCaseString.toLowerCase();
+        
+        System.out.println("Original Uppercase String: " + upperCaseString);
+        System.out.println("Converted Lowercase String: " + lowerCaseString);
+    }
+}
