@@ -1,0 +1,7 @@
+public class Subsequence {
+    public static void main(String[] args){
+        String s1 = "Mohammed Nizam";
+        CharSequence cs = s1.subSequence(3,9);//start index and end index
+        System.out.println(cs);
+    }
+}
