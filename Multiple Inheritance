@@ -1,0 +1,28 @@
+interface Subject1 {  
+    default void tamil() {  
+        System.out.println("tamil subject is pass ");  
+    }  
+}  
+
+interface Subject2 {  
+    default void English() {  
+        System.out.println("english subject is fail ");  
+    }  
+}  
+
+class Allsubject implements Subject1,Subject2{  
+    public void allsubject() {  
+        System.out.println("clear all subject");  
+    }  
+}  
+public class MultipleInheritanceDemo {  
+    public static void main(String[] args) {  
+       
+        Allsubject obj = new Allsubject();  
+      
+        obj.tamil();  
+        obj.English();  
+      
+        obj.allsubject();  
+    }  
+}  
