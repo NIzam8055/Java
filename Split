@@ -1,0 +1,8 @@
+public class Split {
+public static void main (String[] args){
+    String emailAddress = "testOne@gmail.com;testTwo@gmail.com;testThree@gmail.com";
+      String[] emailAddressArray = emailAddress.split(";");// use delimiters
+   for(String emailAddr : emailAddressArray)
+System.out.println(emailAddr);
+}
+}
