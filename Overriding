@@ -1,0 +1,21 @@
+class Atm{  
+  void Account(){System.out.println("transaction successfully");}  
+}  
+class Amount extends Atm{
+    void Account(){System.out.println("payment failed ");}
+}
+class Transaction extends Amount {
+    void Account(){System.out.println("transaction Failed");}  
+}
+
+public class Bank extends Atm{  
+  public static void main(String args[]){  
+
+  Atm obj = new Atm();  
+   Amount obj2 = new Amount();  
+  Transaction obj3 = new Transaction();  
+  obj.Account(); 
+  obj2.Account(); 
+  obj3.Account();  
+  }  
+}  
