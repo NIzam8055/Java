@@ -1,0 +1,7 @@
+public class Substring {
+    public static void main (String[] args){
+         String Code = "cloud programming!";
+ System.out.println(Code.substring(13));        
+System.out.println(Code.substring(7, 12));
+    }
+}
