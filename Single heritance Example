@@ -1,0 +1,24 @@
+ class Person {
+    String firstName;
+    String lastName;
+
+    Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+}
+class Employees extends Person {
+    String employeeId;
+
+    Employees(String firstName, String lastName, String employeeId) {
+        super(firstName, lastName); 
+        this.employeeId = employeeId;
+    }
+}
+public class Employee {
+    public static void main(String[] args) {
+        Employees emp = new Employees("NIzam", "N", "Admin_6");
+        System.out.println("Employee Name: " + emp.firstName + " " + emp.lastName);
+        System.out.println("Employee ID: " + emp.employeeId);
+    }
+}
